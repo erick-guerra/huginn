@@ -141,7 +141,7 @@ group :development do
   gem 'web-console', '>= 3.3.0'
 
   gem 'capistrano', '~> 3.11.0'
-  gem 'capistrano-rails', '~> 1.1'
+  gem 'capistrano-rails', '~> 1.1', '>= 1.1.4'
   gem 'capistrano-bundler', '~> 1.1.4'
 
   if_true(ENV['SPRING']) do
