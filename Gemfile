@@ -118,11 +118,11 @@ gem 'mini_magick', ">= 4.9.4"
 gem 'multi_xml'
 gem 'nokogiri'
 gem 'omniauth', '~> 1.6.1'
-gem 'rails', '~> 5.2.0'
+gem 'rails', '~> 7.0.8', '>= 7.0.8.7'
 gem 'sprockets', '~> 3.7.2'
 gem 'rails-html-sanitizer', '~> 1.0.4'
 gem 'rufus-scheduler', '~> 3.4.2', require: false
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 gem 'select2-rails', '~> 3.5.4'
 gem 'spectrum-rails'
 gem 'execjs', '~> 2.7.0'
