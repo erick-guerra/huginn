@@ -118,11 +118,11 @@ gem 'mini_magick', ">= 4.9.4"
 gem 'multi_xml'
 gem 'nokogiri'
 gem 'omniauth', '~> 1.6.1'
-gem 'rails', '~> 5.2.0'
+gem 'rails', '~> 7.0.0'
 gem 'sprockets', '~> 3.7.2'
 gem 'rails-html-sanitizer', '~> 1.0.4'
 gem 'rufus-scheduler', '~> 3.4.2', require: false
-gem 'sass-rails', '~> 5.0'
+gem 'sass-rails', '~> 6.0', '>= 6.0.0'
 gem 'select2-rails', '~> 3.5.4'
 gem 'spectrum-rails'
 gem 'execjs', '~> 2.7.0'
@@ -136,7 +136,7 @@ group :development do
   gem 'guard', '~> 2.14.1'
   gem 'guard-livereload', '~> 2.5.1'
   gem 'guard-rspec', '~> 4.7.3'
-  gem 'rack-livereload', '~> 0.3.16'
+  gem 'rack-livereload', '~> 0.6.0'
   gem 'letter_opener_web', '~> 1.3.1'
   gem 'web-console', '>= 3.3.0'
 
