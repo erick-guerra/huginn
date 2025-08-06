@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.10
 # MAINTAINER Someone <someone@example.com>
 
 # Update package list
