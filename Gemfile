@@ -38,7 +38,7 @@ gem 'erector', github: 'dsander/erector', branch: 'fix-fixnum-warning'
 gem 'hipchat', '~> 1.2.0'         # HipchatAgent
 gem 'mini_racer', '~> 0.2.4'      # JavaScriptAgent
 gem 'xmpp4r',  '~> 0.5.6'         # JabberAgent
-gem 'mqtt'                        # MQTTAgent
+gem 'mqtt'                        , '>= 0.7.0' # MQTTAgent
 gem 'slack-notifier', '~> 1.0.0'  # SlackAgent
 gem 'hypdf', '~> 1.0.10'          # PDFInfoAgent
 
