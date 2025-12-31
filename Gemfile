@@ -35,12 +35,12 @@ gem 'net-ftp-list', '~> 3.2.8'    # FtpsiteAgent
 gem 'forecast_io', '~> 2.0.0'     # WeatherAgent
 gem 'rturk', '~> 2.12.1'          # HumanTaskAgent
 gem 'erector', github: 'dsander/erector', branch: 'fix-fixnum-warning'
-gem 'hipchat', '~> 1.2.0'         # HipchatAgent
+gem 'hipchat', '~> 1.3.0' # HipchatAgent
 gem 'mini_racer', '~> 0.2.4'      # JavaScriptAgent
 gem 'xmpp4r',  '~> 0.5.6'         # JabberAgent
 gem 'mqtt'                        # MQTTAgent
 gem 'slack-notifier', '~> 1.0.0'  # SlackAgent
-gem 'hypdf', '~> 1.0.10'          # PDFInfoAgent
+gem 'hypdf', '~> 1.0.11' # PDFInfoAgent
 
 # Weibo Agents
 # FIXME needs to loosen omniauth dependency, add rest-client
@@ -104,7 +104,7 @@ gem 'font-awesome-sass', '~> 4.7.0'
 gem 'foreman', '~> 0.63.0'
 gem 'geokit', '~> 1.8.4'
 gem 'geokit-rails', '~> 2.2.0'
-gem 'httparty', '~> 0.13'
+gem 'httparty', '~> 0.24', '>= 0.24.0'
 gem 'httmultiparty', '~> 0.3.16'
 gem 'jquery-rails', '~> 4.2.1'
 gem 'huginn_agent', '~> 0.4.0'
