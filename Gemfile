@@ -32,7 +32,7 @@ end
 gem 'twilio-ruby', '~> 3.11.5'    # TwilioAgent
 gem 'ruby-growl', '~> 4.1.0'      # GrowlAgent
 gem 'net-ftp-list', '~> 3.2.8'    # FtpsiteAgent
-gem 'forecast_io', '~> 2.0.0'     # WeatherAgent
+gem 'forecast_io', '~> 2.0.2' # WeatherAgent
 gem 'rturk', '~> 2.12.1'          # HumanTaskAgent
 gem 'erector', github: 'dsander/erector', branch: 'fix-fixnum-warning'
 gem 'hipchat', '~> 1.2.0'         # HipchatAgent
@@ -47,8 +47,8 @@ gem 'hypdf', '~> 1.0.10'          # PDFInfoAgent
 gem 'weibo_2', github: 'albertsun/weibo_2', branch: 'master'
 
 # GoogleCalendarPublishAgent and GoogleTranslateAgent
-gem 'google-api-client', '~> 0.13'
-gem 'google-cloud-translate', '~> 1.0.0', require: 'google/cloud/translate'
+gem 'google-api-client', '~> 0.53', '>= 0.53.0'
+gem 'google-cloud-translate', '~> 2.0.0', require: 'google/cloud/translate'
 
 # Twitter Agents
 gem 'twitter', github: 'sferik/twitter' # Must to be loaded before cantino-twitter-stream.
@@ -97,9 +97,9 @@ gem 'delayed_job', '~> 4.1.5'
 gem 'delayed_job_active_record', github: 'dsander/delayed_job_active_record', branch: 'rails52'
 gem 'devise', '~> 4.6.2'
 gem 'em-http-request', '~> 1.1.2'
-gem 'faraday', '~> 0.9'
+gem 'faraday', '~> 2.14', '>= 2.14.1'
 gem 'faraday_middleware', '~> 0.12.2'
-gem 'feedjira', '~> 2.1'
+gem 'feedjira', '~> 3.0', '>= 3.0.0'
 gem 'font-awesome-sass', '~> 4.7.0'
 gem 'foreman', '~> 0.63.0'
 gem 'geokit', '~> 1.8.4'
